@@ -126,6 +126,9 @@ section{
     object-fit: cover; /* Ensures image fills the space properly */
 }
 
+#product a{
+    background: #29f700;
+}
 
 
 #contact {
