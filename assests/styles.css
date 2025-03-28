@@ -108,22 +108,25 @@ section{
     width: 400px;
     height: 400px;
 }
-.card{
-    width: 400px;
-    height: 400px;
-    border-radius: 20px !important;
+.card {
+    width: 100%; /* Full width inside the column */
+    max-width: 350px; /* Limit size on larger screens */
+    height: auto; /* Let content adjust height */
+    border-radius: 20px;
+    margin: 20px auto; /* Centers the card */
     overflow: hidden;
+    display:flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 50px;
-
 }
 
 .card img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: cover; /* Ensures image fills the space properly */
 }
+
+
 
 #contact {
     background: #f8f9fa;
